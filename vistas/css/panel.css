@@ -1,0 +1,101 @@
+.informacion {
+	width: 100%;
+	/*display: flex;*/
+	flex-wrap: wrap;
+	justify-content: space-between;
+	display: none;
+}
+
+.informacion .info {
+	width: 30%;
+	background: #2D9842;
+	color: #fff;
+	padding: 20px 30px;
+	/*text-align: center;*/
+	font-family: 'Oswald', sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center
+}
+
+.informacion .info h2 {
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.informacion .info p {
+	text-align: center;
+	font-size: 70px;
+	line-height: 70px;
+	vertical-align: bottom;
+}
+
+.nueva {
+	padding: 20px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 16px;
+	background: #4B4BFF;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin: 20px auto;
+	display: block;
+}
+
+.formulario {
+	background: #fff;
+	padding: 30px;
+}
+
+.jugador {
+	background: #4F4F4F;
+	color: #fff;
+	padding: 30px;
+	margin: 30px 0;
+	border-radius: 20px;
+}
+
+.jugador h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.jugador label {
+	text-align: center;
+}
+
+.jugador input,
+.input {
+	outline: none;
+	border: none;
+	width: 100%;
+	height: 50px;
+	/* border: 1px solid #000; */
+	padding: 0 20px;
+	margin: 20px 0;
+	border-radius: 5px;
+}
+
+.btn {
+	background: #000;
+	color: #fff;
+	padding: 15px;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin: 0 auto;
+	display: block;
+}
+
+.input {
+	border: 1px solid #000;
+}
+
+.contenedor-jugadores,
+.nueva-partida {
+	display: none;
+}

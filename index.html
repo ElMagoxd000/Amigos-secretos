@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Amigos secretos</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Saira+Stencil+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="vistas/css/estilos.css">
+    </head>
+    <body>
+        <!-- <button onclick="cargarTarjetas()">Cargar</button> -->
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
+                <h2>Tu amigo secreto es</h2>
+                <p id="persona"></p>
+                <button id="btn">Continuar</button>
+            </div>
+        </div>
+        <div class="contenedor">
+            <h1 class="titulo">Amigos secretos</h1>
+            <div class="grid" id="grid">
+            </div>
+            <a href="php/cerrar.php" class="cerrar-sesion">Cerrar sesión:<p id="usuario"></p></a>
+        </div>
+        <script src="vistas/js/main.js" charset="utf-8"></script>
+    </body>
+</html>
